@@ -2,6 +2,7 @@ import type { HttpContextContract } from '@ioc:Adonis/Core/HttpContext'
 import { schema, rules } from '@ioc:Adonis/Core/Validator'
 import Cliente from 'App/Models/Cliente'
 
+// Comentário
 export default class ClientesController {
 
     public async validationCliente(request) {
